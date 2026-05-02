@@ -56,12 +56,13 @@ OpenVVC is another VVC decoder library licensed under LGPLv2.1.
 
 ### Minimum requirements
 
-**vvenc/vvdec**:
+**vvdec/vvenc**:
 
 * Windows XP and later (requires Visual C++ Redistributable for Visual Studio 2019 installed)
 * Mac OS X 10.9 and later (arm64 since macOS 11.0)
 * Linux kernel 3.2.0 and later (eg. Ubuntu 12.04 LTS and later)
-* BSD (FreeBSD & x64 only)
+* FreeBSD 9.0 and later
+* OpenBSD 6.6 and later
 * Android 4.1 (API 16, Jelly Bean) and later (arm64 & x86_64 since Android 5.0)
 * Haiku OS (x86_64 only)
 
@@ -91,7 +92,7 @@ NOTE: uvg266 compiled by same architectures supported of vvdec & vvenc.
 
 All compiled builds are compressed files on 7-Zip.
 
-| OS | vvenc & vvdec | uvg266 |
+| OS | vvdec & vvenc | uvg266 |
 | --- | --- | --- |
 | Windows | [x64/x86](https://github.com/MartinEesmaa/VVCEasy/raw/refs/heads/master/WindowsVVC/WindowsVVC.7z) | [Download](https://github.com/MartinEesmaa/VVCEasy/raw/refs/heads/master/uvg266/Windows/uvg266-Windows.7z) |
 | macOS | [Arm64/x64](https://github.com/MartinEesmaa/VVCEasy/raw/refs/heads/master/MacOSVVC/MacOSVVC.7z) | [Download](https://github.com/MartinEesmaa/VVCEasy/raw/refs/heads/master/uvg266/macOS/uvg266-macOS.7z) |
